@@ -1,12 +1,21 @@
 {
   "expo": {
-    "name": "shipping-accounting-sys",
+    "name": "Shipping Accounting Sys",
     "slug": "shipping-accounting-sys",
     "version": "1.0.0",
     "orientation": "portrait",
     "platforms": ["ios", "android", "web"],
+    "sdkVersion": "49.0.0",
     "android": {
-      "package": "com.yourname.shippingaccountingsys"
+      "package": "com.abosaqr.shippingaccountingsys",
+      "versionCode": 1
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.abosaqr.shippingaccountingsys"
+    },
+    "web": {
+      "bundler": "metro"
     }
   }
 }
