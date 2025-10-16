@@ -1,4 +1,4 @@
-name: Build APK
+name: Build Android APK
 
 on:
   push:
@@ -25,7 +25,7 @@ jobs:
         run: npm install -g eas-cli
 
       - name: Log in to Expo
-        run: eas whoami || eas login --non-interactive --username ${{ secrets.EXPO_USERNAME }} --password ${{ secrets.EXPO_PASSWORD }}
+        run: eas whoami || eas login --token ${{ secrets.EXPO_TOKEN }}
 
       - name: Build Android APK
-        run: eas build --platform android --profile preview --non-interactive
+        run: eas build -p android --profile preview --non-interactive
