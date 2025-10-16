@@ -1,24 +1,12 @@
 {
   "expo": {
-    "name": "Shipping Accounting",
+    "name": "shipping-accounting-sys",
     "slug": "shipping-accounting-sys",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
-    "updates": {
-      "fallbackToCacheTimeout": 0
-    },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "platforms": ["ios", "android", "web"],
     "android": {
-      "package": "com.abosaqr.shippingaccounting"
+      "package": "com.yourname.shippingaccountingsys"
     }
   }
 }
